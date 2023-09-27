@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: black;
+  height: 60px;
+  padding: 20px 50px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 3px 15px 10px rgb(224, 217, 217);
+} 
+
+header h1{
+  font-size: 20px;
+  float: left;
+  color: rgb(249, 249, 2);
+  box-shadow: 0 3px 8px whitesmoke;
+
+}
+body{
+  background-color: rgb(205, 205, 183);
+}
+header ul li{
+  float: right;
+  display: inline;
+  color: aquamarine;
+  box-shadow: 0 3px 8px whitesmoke;
+}
+
+header ul li a{
+  color: rgb(255, 255, 4);
+  margin: 30px;
+  text-decoration: none;
+  
+}
+
+.bersihkan{
+  clear: both;
+} 
+
+.container{
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  
+
+}
+
+.hero{
+  background-image: url(Img/eskul.jpg);
+  background-size:cover ;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1{
+  color:white;
+  font-size: 40px;
+  text-shadow: -2px 5px 0px red;
+}
+.hero h2{
+  color: green;
+}
+.hero h4{
+color: white;
+font-size: 40px ;
+}
+.Fighter{
+  width: 60%;
+  border-color: brown;
+  float: left;
+  margin: 20px 0px 20px 20px;
+}
+
+
+.about{
+  width: 30%;
+  border-color: brown;
+  float: right;
+  margin: 20px 20px 20px 0px;
+
+} 
+
+.about img{
+  border-radius: 20%;
+  float: left;
+  margin-right: 10px;
+  width: 55%;
+}
+
+footer{
+  height: 60px;
+  background-color: black;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+
+}
